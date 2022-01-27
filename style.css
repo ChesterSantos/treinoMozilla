@@ -1,0 +1,79 @@
+* {
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+}
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: aqua;
+    }
+
+    div {
+        font-weight: bold;
+        font-family: Helvetica;
+        color: rgb(23, 23, 172);
+        -webkit-text-stroke:rgba(26, 62, 129, 0.144) 1px;
+        text-align: center;
+        padding-top: 30px;
+        justify-content: center;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    #customname {
+        font-weight: 700;
+        color: rgb(28, 7, 146);
+        text-shadow: black;
+        
+    }
+
+    #lingua {
+       
+      font-size: 15px;
+      padding-top: 30px;
+      text-align: center;
+    }
+
+    #botao {
+        width: 500px;
+        height: 30px;
+        padding: 30px;
+    
+        display: block;
+        
+      }
+
+      .randomize {
+          width: 150px;
+          height: 30px;
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.233);
+          border-radius: 4px;
+
+      }
+
+      .randomize:hover {
+          background: rgba(25, 25, 179, 0.363);
+        font-size:0,2em;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        -webkit-text-stroke: 1px rgba(18, 0, 100, 0.089); 
+        transition: ease;
+        transition-delay: 10ms;
+        white-space: nowrap;
+        overflow: auto;
+      }
+
+    p {
+        margin: 30px;
+        background: rgb(12, 9, 201);
+        color: white;
+        text-align: center;
+        padding: 25px;
+        border-radius: 10px;
+        visibility: hidden;
+        line-height: 2em; 
+        box-shadow: 2px 2px 2px rgba(7, 16, 17, 0.534);
+    };
+    
